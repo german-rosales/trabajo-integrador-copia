@@ -86,6 +86,9 @@ header{
 #menu{
     display: none;
 }
+.menu-hamburguesa{
+    display: none;
+}
 
 /* HEADER */
 /* SECTION INICIO */
