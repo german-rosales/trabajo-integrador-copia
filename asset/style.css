@@ -109,6 +109,7 @@ header{
 }
 .btn-registrarme{
     background-color: #ff6d00;
+    background: var(--bg-electric);
     border-radius: 30px;
     display: flex;
     justify-content: flex-start;
