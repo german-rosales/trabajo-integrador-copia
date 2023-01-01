@@ -122,6 +122,9 @@ section{
     padding: 0 20px;
     
 }
+#fecha{
+    padding: 0 100px;
+}
 
 .icon-form{
     font-size: 30px;
