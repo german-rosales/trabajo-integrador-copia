@@ -1,5 +1,5 @@
 *{
-    border: solid red 1px;
+    /* border: solid red 1px; */
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -62,6 +62,7 @@ header{
 }
 .regresar{
     z-index: 3;
+    padding-left: 30px;
     
 }
 .icon{
@@ -93,6 +94,8 @@ section{
 }
 .contenedor-formulario h3{
     text-align: center;
+    font-size: 30px;
+    color: blue;
 }
 .formulario{
     display: flex;
@@ -128,13 +131,23 @@ section{
     width: 90%;
     
 }
+.btn-login{
+    border: none;
+    padding: 15px 50px;
+    border-radius: 10rem;
+}
+.contenedor-p a span{
+    color: var(--bg-electric);
+    font-size: 20px;
+    font-weight: 700;
+}
 /* RESPONSIVE */
 @media(max-width:900px){
     .navbar-list{ 
         position: absolute;
         display: flex;
         flex-direction: column;
-        top: 40px;
+        top: 60px;
         display: none;
         width: 60%;
         padding: 0;

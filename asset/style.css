@@ -5,7 +5,7 @@
     text-decoration: none;
     list-style-type: none;
     color: rgb(10, 116, 209);
-    border: solid red 0.5px;
+    /* border: solid red 0.5px; */
 }
 :root {
     /* bg colors */
