@@ -1,5 +1,5 @@
 *{
-    border: solid red 1px;
+    /* border: solid red 1px; */
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -91,6 +91,7 @@ section{
     margin-top: 50px;
     max-width: 1300px;
     height: 100vh;
+    padding-bottom: 50px;
 }
 .contenedor-formulario h3{
     text-align: center;
@@ -133,8 +134,8 @@ section{
  }
  .btn-registrarme{
     border: none;
-    padding: 15px 50px;
-    border-radius: 10rem;
+    padding: 10px 50px;
+    border-radius: 5rem;
     font-size: 30px;
     font-weight: 700;
     color: black;

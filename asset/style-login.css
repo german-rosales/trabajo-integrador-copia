@@ -1,5 +1,5 @@
 *{
-    border: solid red 1px;
+    /* border: solid red 1px; */
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -96,7 +96,7 @@ section{
 .contenedor-formulario h3{
     text-align: center;
     font-size: 30px;
-    color: blue;
+    color:var(--bg-electric);
 }
 .formulario{
     display: flex;
@@ -134,8 +134,8 @@ section{
 }
 .btn-login{
     border: none;
-    padding: 15px 50px;
-    border-radius: 10rem;
+    padding: 10px 50px;
+    border-radius: 5rem;
     font-size: 30px;
     font-weight: 700;
     color: black;
