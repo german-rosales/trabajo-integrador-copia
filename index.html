@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="./asset/style.css">
     <link rel="stylesheet" href="./asset/mediaqueries.css">
+    <link rel="stylesheet" href="./asset/registrarme.html">
     <script src="https://kit.fontawesome.com/ca704d7fd5.js" crossorigin="anonymous"></script>
     
 </head>
@@ -23,12 +24,12 @@
 <input type="checkbox" id="menu">
 
 <ul class="navbar-list">
-<li><a href="#">Inicio</a></li>
-<li><a href="#">Descripcion</a></li>
-<li><a href="#">Jugadores</a></li>
-<li><a href="#">Videos</a></li>
-<li><a href="#">Memes</a></li>
-<li><a href="#">Contacto</a></li>
+<li><a href="#section-inicio">Inicio</a></li>
+<li><a href="#section-descripcion">Descripcion</a></li>
+<li><a href="#section-jugadores">Jugadores</a></li>
+<li><a href="#section-videos">Videos</a></li>
+<li><a href="#section-memes">Memes</a></li>
+<li><a href="#section-contacto">Contacto</a></li>
 </ul>
  <div class="bluriado"></div> 
 </nav>
@@ -45,16 +46,24 @@
    
      <!--SECTIO INICIO  -->
 <section id="section-inicio">
+<div class="contenedor-btn-registrarme">
+<button class="btn-registrarme"><a class="registrarme" href="./asset/login.html"> Registrarme</a></button>    
+</div>
+<div class="inicio">
 <div class="contenedor-inicio">
 <h1 class="titulo">Scaloneta: qué es y por qué le dicen así a la Selección Argentina</h1>
 <p class="descripcion">Conocé el motivo de por qué le dicen de esa forma particular al combinado nacional que dirige Lionel Scaloni.</p>
 </div>
+<div class="contenedor-img-scaloneta">
 <img class="img-scaloneta" src="./asset/imagenes/S6YM65QUFZGMZKTKDPCUHWOVAI.jfif" alt="la escaloneta">
+</div>
+</div>
 </section>
 <!-- SECTION INICO -->
 
 <!-- SECTION DESCRIPCION -->
 <section id="section-descripcion">
+<div class="section-descripcion-ocultar">
 <div class="contenedor-descripcion">
 <img class="img-lionel-scaloni" src="./asset/imagenes/lionel-scaloni_862x485.webp" alt="img-lionel-scaloni">
 <div class="contenedor">
@@ -62,6 +71,7 @@
 <div class="contenedor2"><h3>Scaloneta: qué es y por qué le dicen así a la Selección Argentina</h3>
 <p>En medios escritos, digitales y principalmente en redes sociales comenzó a surgir algo llamado 'La Scaloneta' un apodo para hacer referencia al combinado nacional de Argentina y que hasta el día de hoy permanece vigente.</p>
 <p>Si bien, no hay una fecha exacta del surgimiento de este apodo, todo parece haber comenzado después de la goleada 3-0 frente a Ecuador por los cuartos de final de la Copa América 2021. Resultado que hizo ilusionar a los millones de argentinos sedientos de gloria y que fue uno de los primeros grandes pasos previo a la consagración que tendrían más adelante. Post partido los memes no se hicieron esperar y algunos tenían al protagonista, Lionel Scaloni, manejando un colectivo con la frase "La Scaloneta".</p>
+</div>
 </div>
 </div>
 </div>
@@ -419,7 +429,7 @@
 <video controls class="videos">
 <source src="./asset/videos/saltaesdelsanto - 7179130382648904965.mp4" type="video/mp4">
 </video>
-</div>
+
 </div>
 
                       
@@ -430,7 +440,7 @@
 </video>
 </div>
 </div>
-
+</div>
 </sction>
 
 <!-- SECTION VIDEOS -->
@@ -509,10 +519,13 @@
 </form>
 
 </section>
+</main>
+
+
 <!-- SECTION CONTACTO -->
 
 
-<footer >
+<footer>
 <div class="contenedor-footer" >
 <div class="footer-redes">
 <i class="fa-brands fa-instagram redes" ></i>
@@ -524,7 +537,11 @@ Hecho con ❤️ <span>Germán Rosales</span>
 </p>
 </div>
 </div>
+<div class="volver">
+<a href="#section-inicio"> <i class="fa-solid fa-circle-up flecha"></i></a>
+</div>
+
+
 </footer>
-</main>
 </body>
 </html>

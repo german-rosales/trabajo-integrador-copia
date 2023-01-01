@@ -5,7 +5,7 @@
     text-decoration: none;
     list-style-type: none;
     color: rgb(10, 116, 209);
-    /* border: solid red 0.5px; */
+    border: solid red 0.5px;
 }
 :root {
     /* bg colors */
@@ -28,6 +28,12 @@
 }
 /* HEADER */
 
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 60px;
+}
+
+
 main{
     background-color: black;
     display: flex;
@@ -36,7 +42,9 @@ main{
     align-items: center;
     padding-top: 60px;
     position: relative;
+    
 }
+
 .bluriado{
     position: absolute;
     top: 0;
@@ -92,6 +100,39 @@ header{
 
 /* HEADER */
 /* SECTION INICIO */
+.contenedor-btn-registrarme{
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    padding-right: 30px;
+    
+}
+.btn-registrarme{
+    background-color: #ff6d00;
+    border-radius: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    
+}
+.registrarme{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+    color: #ff1ed2;
+}
+.inicio{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+
+
+
 .img-scaloneta{
     height: 500px;
     background-size: cover;
@@ -105,6 +146,7 @@ header{
 }
 #section-inicio{
     display: flex;
+    flex-direction: column;
     max-width: 1300px;
     justify-content: space-between;
     align-items: center;
@@ -402,6 +444,12 @@ margin-top: 50px;
     margin-top: 50px;
     margin-bottom: 50px;
     border-radius: 35px;
+    gap: 30px;
+}
+.contenedor-memes img{
+    height: 800px;
+    width: 800px;
+    background-color: #1e50ff;
 }
 .contenedor-memes::-webkit-scrollbar{
     display: unset;
@@ -439,6 +487,7 @@ margin-top: 50px;
 #section-contacto{
 width: 95%;
 max-width: 1300px;
+
 
 
 }
@@ -594,16 +643,27 @@ max-width: 1300px;
 
 /* FOOTER */
 footer{
-    max-width: 1300px;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: black;
+    
 }
+    
+    
 .contenedor-footer{
     display: flex;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 15px;
+    max-width: 1300px;
+    width: 100%;
+    
 }
 .footer-redes{
     display: flex;
@@ -629,6 +689,19 @@ footer{
 }
 /* FOOTER */
 
+.volver{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    cursor: pointer;
+    position: fixed;
+    max-width: 1300px;
+    padding: 0 10px 5px 0;
+    
+}
+.flecha{
+    font-size: 50px;
+}
 
 /* MENU HAMBURGUESA */
 
