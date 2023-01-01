@@ -1,5 +1,5 @@
 *{
-    /* border: solid red 1px; */
+    border: solid red 1px;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -37,13 +37,13 @@ header{
 
 }
 .menu-hamburguesa{
-    display: flex;
+    display: none;
 }
 #menu{
     display: none;
 }
 .bluriado{
-    display: flex;
+    display: none;
 }
 .navbar{
     display: flex;
@@ -63,6 +63,7 @@ header{
 .regresar{
     z-index: 3;
     padding-left: 30px;
+    font-weight: 900;
 }
 .icon{
     cursor: pointer;
@@ -93,7 +94,10 @@ section{
 }
 .contenedor-formulario h3{
     text-align: center;
+    font-size: 30px;
+    color: blue;
 }
+
 .formulario{
     display: flex;
     flex-direction: column;
@@ -131,7 +135,14 @@ section{
     border: none;
     padding: 15px 50px;
     border-radius: 10rem;
+    font-size: 30px;
+    font-weight: 700;
+    color: black;
 }
+.btn-registrarme a{
+    color: black;
+}
+
 /* RESPONSIVE */
 @media(max-width:900px){
     .navbar-list{ 

@@ -1,5 +1,5 @@
 *{
-    /* border: solid red 1px; */
+    border: solid red 1px;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -63,6 +63,7 @@ header{
 .regresar{
     z-index: 3;
     padding-left: 30px;
+    font-weight: 900;
     
 }
 .icon{
@@ -135,6 +136,12 @@ section{
     border: none;
     padding: 15px 50px;
     border-radius: 10rem;
+    font-size: 30px;
+    font-weight: 700;
+    color: black;
+}
+.btn-login a{
+    color: black;
 }
 .contenedor-p a span{
     color: var(--bg-electric);
