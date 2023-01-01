@@ -111,8 +111,8 @@ header{
     background-color: #ff6d00;
     background: var(--bg-electric);
     background-image: url(./imagenes/bandera-argentina_1401-57.webp);
-    background-size: cover;
-    background-position: center;
+    /* background-size: cover;
+    background-position: center; */
     border-radius: 30px;
     display: flex;
     justify-content: flex-start;
