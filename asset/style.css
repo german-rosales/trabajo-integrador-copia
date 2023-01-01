@@ -113,6 +113,7 @@ header{
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
+    border: none;
     
 }
 .registrarme{
@@ -120,7 +121,9 @@ header{
     justify-content: center;
     align-items: center;
     padding: 10px 30px;
-    color: #ff1ed2;
+    color: #1eff31;
+    font-weight: 800;
+    font-size: 15px;
 }
 .inicio{
     display: flex;
