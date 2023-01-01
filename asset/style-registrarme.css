@@ -96,7 +96,7 @@ section{
 .contenedor-formulario h3{
     text-align: center;
     font-size: 30px;
-    color: blue;
+    color: var(--bg-electric);
 }
 
 .formulario{
