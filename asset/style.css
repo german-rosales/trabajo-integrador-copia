@@ -441,8 +441,6 @@ margin-top: 50px;
     width: 95%;
 }
 .contenedor-memes{
-    width: 100px;
-    height: 400px;
     /* background-color: aqua; */
     display: flex;
     overflow-x: scroll;
@@ -451,11 +449,6 @@ margin-top: 50px;
     margin-bottom: 50px;
     border-radius: 35px;
     gap: 30px;
-}
-.contenedor-memes img{
-    height: 800px;
-    width: 800px;
-    background-color: #1e50ff;
 }
 .contenedor-memes::-webkit-scrollbar{
     display: unset;
