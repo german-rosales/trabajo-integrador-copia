@@ -103,8 +103,8 @@ header{
 .contenedor-btn-registrarme{
     display: flex;
     width: 100%;
-    justify-content: end;
-    padding-right: 30px;
+    justify-content: start;
+    padding-left: 30px;
     
 }
 .btn-registrarme{
@@ -115,8 +115,6 @@ header{
     background-position: center; */
     border-radius: 30px;
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
     border: none;
     margin-bottom: 30px;
     
