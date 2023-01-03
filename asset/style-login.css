@@ -64,7 +64,14 @@ header{
 }
 .navbar-list li{
     position: relative;
+    font-size: 20px;
+    font-weight: 500;
     
+}
+.navbar-list li:first-child > a{
+    font-size: 25px;
+    color: var(--bg-electric);
+    font-weight: 900;
 }
 /* ANIMACION */
 .navbar-list li a::after{

@@ -25,16 +25,22 @@
         flex-direction: column;
         top: 40px;
         display: none;
-        width: 60%;
+        width: 90%;
+        left: 5%;
+        right: 5%;
         padding: 0;
         margin: 0;
         background: var(--secondary);
-        padding-top: 20px;
+        padding-top: 50px;
         padding-bottom: 20px;
-        border-radius: 10px 0 0 10px ;
+        border-radius: 0 0 10px 10px ;
         border: solid var(--electric) 1px ;
-        border-right: none;
+        border-top: none;
         z-index: 3;
+        transition: all 12s ease-in;
+       
+
+        
 } 
 .menu-hamburguesa{
     display: flex;
@@ -43,8 +49,20 @@
 
 #menu:checked + .navbar-list{ 
     display: flex;
+    animation: anamacion 1s ease-in forwards;
+    transition: all 5s ease-in-out;
+    
 
 } 
+@keyframes animacion {
+    100%{
+        transform: translateY(0) ;
+    }
+    0%{
+        transform: translateY(100px);
+    }
+    
+}
 #menu:checked ~ .bluriado{
     display: flex;
 }
@@ -179,9 +197,7 @@
         display: flex;
         cursor: pointer;
     }
-    .navbar-list{ 
-   
-} 
+ 
 
 
 

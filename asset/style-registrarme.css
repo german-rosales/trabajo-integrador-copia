@@ -61,9 +61,16 @@ header{
     gap: 30px;
     
 }
+.navbar-list li:first-child > a{
+    color: var(--bg-electric);
+    font-size: 25px;
+    font-weight: 900;
+}
 /* ANIMACION */
 .navbar-list li{
     position: relative;
+    font-size: 20px;
+    font-weight: 500;
 }
 .navbar-list li a::after{
     content: "";
@@ -85,14 +92,14 @@ header{
 }
 .navbar-list li:hover{
     transform: scale(1.2);
-   
+    transition: all 0.1s linear;
 }
 /* ANIMACION */
 .regresar{
     z-index: 3;
     padding-left: 30px;
     font-weight: 900;
-    transition: all 0.5s ease-in;
+    
 }
 /* ANIMACION */
 .regresar:hover{
@@ -127,6 +134,7 @@ section{
     max-width: 1300px;
     height: 100vh;
     padding-bottom: 50px;
+    
 }
 .contenedor-formulario h3{
     text-align: center;

@@ -90,6 +90,8 @@ header{
 /* ANIMACION */
 .navbar-list li{
     position: relative;
+    font-size: 20px;
+    font-weight: 500;
 }
 .navbar-list li a::after{
     position: absolute;
@@ -117,7 +119,7 @@ header{
 /* ANIMACION */
 .navbar-list li:first-child > a{
     color: var(--bg-electric);
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 600;
 }
 #menu{
@@ -148,12 +150,15 @@ header{
     margin-top: 20px;
     margin-bottom: 30px;
     transition: 0.5s all ease-in;
+    animation: animacion1 1s ease-in,
+               animacion2 1s ease-in;
 }
 /* ANIMACION */
 .btn-registrarme:hover{
     transform: scale(1.1);
     transition: 0.5s all ease-in-out;
     background: #ff6d00;
+   
 }
 /* ANIMACION */
 .registrarme{
@@ -165,7 +170,7 @@ header{
     font-weight: 800;
     font-size: 20px;
     /* animation: animacion2 all 0.5s ease-in; */
-    animation: animacion2 all 10s infinite ease;
+    /* animation: animacion2  2s infinite ease; */
 }
 
 
@@ -204,7 +209,8 @@ header{
     background-clip: text;
     -webkit-background-clip: text;
     font-weight:1000;
-    animation: animacion1 all 5s ease-in;
+    animation: animacion1 1s ease-in forwards, animacion4 1s ease-in forwards ;
+   
 
 }
 .descripcion{
@@ -212,6 +218,7 @@ header{
     font-weight: 400;
     color: var(--bg-azul-10);
     margin-top: 30px;
+    animation:animacion4 1s ease-in forwards, animacion1 1s ease-in forwards;
 }
 
 .img-scaloneta{
@@ -222,6 +229,7 @@ header{
     /* flex-wrap: wrap; */
     margin-top: 50px;
     border-radius: 1rem;
+    animation:animacion1 5s ease forwards, animacion4 1s ease-in forwards;
 }
 /* ANIMACIONES */
 @keyframes animacion1{
@@ -238,12 +246,30 @@ header{
 }
 @keyframes animacion2{
     0%{
-        transform: translateY(-500px);
+        transform: translateY(-100px);
     }
     100%{
         transform: translateY(0);
     }
 }
+@keyframes animacion3{
+    0%{
+        transform: rotateY(0deg);
+    }
+    100%{
+        transform: rotateY(360deg);
+    }
+    
+}
+@keyframes animacion4 {
+    0%{
+        transform: translateY(100px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+        
+    }
 /* ANIMACIONES */
 
 /* SECTION INICIO */
@@ -278,6 +304,7 @@ header{
     justify-content: center;
     align-items: center;
     border-radius: 1rem;
+    animation: animacion4 1s ease-in forwards, animacion1 1s ease-in forwards;
 }
 .contenedor{
     display: flex;
@@ -481,10 +508,12 @@ margin-top: 50px;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
+    transition: all 0.3s ease-in;
 }
 /* ANIMACIONES */
 .videos-ind:hover{
     transform: scale(1.05);
+    transition: all 0.3s ease-in;
     cursor: pointer;
 }
 /* ANIMACIONES */
@@ -775,6 +804,7 @@ footer{
     position: fixed;
     max-width: 1300px;
     padding: 0 10px 5px 0;
+    animation: animacion4 1s ease forwards, animacion1 1s ease-in forwards;
     
 }
 .flecha{
