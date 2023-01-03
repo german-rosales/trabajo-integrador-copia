@@ -164,29 +164,13 @@ header{
     color:black;
     font-weight: 800;
     font-size: 20px;
-}
-.inicio{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
+    /* animation: animacion2 all 0.5s ease-in; */
+    animation: animacion2 all 10s infinite ease;
 }
 
 
 
 
-
-.img-scaloneta{
-    height: 500px;
-    background-size: cover;
-    background-position: center;
-    max-width: 1300px;
-    /* flex-wrap: wrap; */
-    margin-top: 50px;
-    border-radius: 1rem;
-
-
-}
 #section-inicio{
     display: flex;
     flex-direction: column;
@@ -202,10 +186,15 @@ header{
     flex-direction: column;
     width: 50%;
     flex-wrap: wrap;
-
-    
-
 }
+
+.inicio{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
 .titulo{
     font-size: 70px;
     background: url(./imagenes/bandera-argentina_1401-57.webp);
@@ -215,6 +204,7 @@ header{
     background-clip: text;
     -webkit-background-clip: text;
     font-weight:1000;
+    animation: animacion1 all 5s ease-in;
 
 }
 .descripcion{
@@ -223,6 +213,39 @@ header{
     color: var(--bg-azul-10);
     margin-top: 30px;
 }
+
+.img-scaloneta{
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    max-width: 1300px;
+    /* flex-wrap: wrap; */
+    margin-top: 50px;
+    border-radius: 1rem;
+}
+/* ANIMACIONES */
+@keyframes animacion1{
+    100%{
+        opacity: 1;
+
+    }
+
+    0%{
+        opacity: 0;
+
+    }
+
+}
+@keyframes animacion2{
+    0%{
+        transform: translateY(-500px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+/* ANIMACIONES */
+
 /* SECTION INICIO */
 
 /* SECTION DESCRIPCION RESPONSIVE */
@@ -459,11 +482,19 @@ margin-top: 50px;
     align-items: center;
     border-radius: 10px;
 }
+/* ANIMACIONES */
+.videos-ind:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+/* ANIMACIONES */
 .videos{
     width:600px;
     height: 200px;
     
+    
 }
+
 
 /* SECTION VIDEOS */
 
@@ -709,11 +740,19 @@ footer{
     gap: 30px;
 
 }
+
 .redes{
     font-size: 30px;
     color: var(--bg-electric);
     cursor: pointer;
 }
+/* ANIMACIONES */
+.redes:hover{
+    transform: rotate(360deg);
+    transition: all 0.5s ease-in-out;
+}
+
+/* ANIMACIONES */
 .footer p{
     color: var(--bg-electric);
     font-size: 25px;

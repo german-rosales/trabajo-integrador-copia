@@ -59,6 +59,7 @@ header{
     justify-content: center;
     align-items:  center;
     gap: 30px;
+    
 }
 /* ANIMACION */
 .navbar-list li{
@@ -78,9 +79,13 @@ header{
     
 }
 .navbar-list li a:hover::after{
-    transform: scale(1);
     transform-origin: left;
+    transform: scaleX(1);
 
+}
+.navbar-list li:hover{
+    transform: scale(1.2);
+   
 }
 /* ANIMACION */
 .regresar{
