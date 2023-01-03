@@ -732,7 +732,16 @@ max-width: 1300px;
     margin-bottom:10px ;
     border-radius: 30px;
     border:var(--electric) solid 0.5px;
+    transition: all 0.3s linear;
 }
+/* ANIMACION */
+.btn-contacto:hover{
+    background: var(--fire);
+    color: var(--background);
+    font-weight: 900;
+    transition: all 0.3s linear;
+}
+/* ANIMACION */
 .google-map{
     margin-top: 50px;
 }
