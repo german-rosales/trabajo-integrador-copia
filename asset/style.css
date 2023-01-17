@@ -818,18 +818,19 @@ footer{
 }
 .whatsapp{
     position: absolute;
-    right: 15px;;
-    bottom: 60px;
+    left: 10px;
+    bottom: 0px;
     font-size: 55px; 
     position: fixed;
     cursor: pointer;
     
 }
 .wsp{
-    color: #0bf00b;
-    
-    
-    }
+    color: var(--bg-white);
+}
+.wsp:hover{
+    color: rgb(8, 241, 58);
+}
 .flecha{
     font-size: 50px;
 }
